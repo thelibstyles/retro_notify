@@ -2,14 +2,24 @@
 retro_notify core css file (DEV)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* 
+font-family: 'Press Start 2P', cursive;
+*/
+
 /* core layout and typology */
 :root {
-    --big-font: 5rem;
-    --med-font: 3rem;
-    --sml-font: 2rem;
-    --tny-font: 1.5rem;
+    --big-font: 3rem;
+    --med-font: 2.5rem;
+    --sml-font: 1.5rem;
+    --tny-font: 1.2rem;
     --def-font: 1rem;
-    --def-font-fam: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans'; 
+    --def-font-fam: 'Press Start 2P', cursive; 
+    --def-width-full: 100%;
+    --def-width-half: 50%;
+    --def-width-quarter: 30%;
+    --def-element-padding: 1%;
 }
 
 html {
@@ -21,28 +31,109 @@ html {
 }
 
 .retro_notify_container {
+    background: #eeeeee; /* default background if no theme class is added */
     font-family: var(--def-font-fam);
     font-size: var(--def-font);
     margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: flex;
     flex-flow: row wrap;
 }
 
+/* component themes x5 classes */
+
+.retro_notify_container_theme1 {
+    background: #6ded8a;
+    color: #1645f5;
+}
+
+.retro_notify_container_theme2 {
+    background: #f0f14e;
+    color: #A224DB;
+}
+
+.retro_notify_container_theme3 {
+    background: #1645f5;
+    color: #f0f14e;
+}
+
+.retro_notify_container_theme4 {
+    background: #A224DB;
+    color: #f0f14e;
+}
+
+.retro_notify_container_theme5 {
+    background: #ed3833;
+    color: #ffffff;
+}
+
+/* components width classes */
+
+.retro_notify_container_width_full {
+    width: var(--def-width-full);
+}
+
+.retro_notify_container_width_half {
+    width: var(--def-width-half);
+}
+
+.retro_notify_container_width_quarter {
+    width: var(--def-width-quarter);
+}
+
+/* component typology classes */
+
 .retro_notify_container h1 {
+    font-family: var(--def-font-fam);
     font-size: var(--big-font);
+    width: var(--def-width-full);
+    padding: var(--def-element-padding);
 }
 
 .retro_notify_container h2 {
+    font-family: var(--def-font-fam);
     font-size: var(--med-font);
+    width: var(--def-width-full);
+    padding: var(--def-element-padding);
 }
 
 .retro_notify_container h3 {
+    font-family: var(--def-font-fam);
     font-size: var(--sml-font);
+    width: var(--def-width-full);
+    padding: var(--def-element-padding);
 }
+
 
 .retro_notify_container p {
+    font-family: var(--def-font-fam);
     font-size: var(--def-font);
+    width: var(--def-width-full);
+    padding: var(--def-element-padding);
+    line-height: normal;
+    word-spacing: 2px;
+}
+
+.retro_notify_container a {
+    font-family: var(--def-font-fam);
+    font-size: var(--def-font);
+    width: var(--def-width-quarter);
+    padding: var(--def-element-padding);
+    border-style: solid;
+    border-width: 3px;
+    margin: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 5px 5px #888888;
+    color: inherit;
+}
+
+.retro_notify_container a:hover {
+    transform: scale(1.1);
+    background: white;
 }
 
 
-/* components */
