@@ -20,6 +20,10 @@ I used semantic html element where possible to make this more compatible.
 </div>
 ```
 
+# Downloaded css files:
+* If you just want to play with it in DEV download the /css/dev/retro_notify_dev.css
+* IF you like this thing and need a slightly leaner/cleaner version download the /css/dev/retro_notify_min.css
+
 # Theme classes
 ```
 .retro_notify_container_theme1
