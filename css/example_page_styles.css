@@ -61,19 +61,23 @@ h1 {
 h2 {
     font-size: 2rem;
     margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: auto;
 }
 
 h3 {
     font-size: 1.4rem;
     margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: auto;
 }
 
 p {
     font-size: 1rem;
     margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: auto;
 }
