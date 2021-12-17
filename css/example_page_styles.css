@@ -73,5 +73,7 @@ h3 {
 p {
     font-size: 1rem;
     margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
     padding: auto;
 }
