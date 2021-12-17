@@ -22,6 +22,29 @@ font-family: 'Press Start 2P', cursive;
     --def-element-padding: 1%;
 }
 
+/* media queries */
+@media (max-width: 576px) {
+
+    .retro_notify_container, 
+    .retro_notify_container_theme1, 
+    .retro_notify_container_theme2,
+    .retro_notify_container_theme3,
+    .retro_notify_container_theme4,
+    .retro_notify_container_theme5 {
+    --def-width-half: 100% !important;
+    --def-width-quarter: 100% !important;
+    }
+}
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
 html {
     font-size: 100%;
 }
