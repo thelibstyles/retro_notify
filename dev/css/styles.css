@@ -17,6 +17,10 @@ header section {
     padding: 5%;
 }
 
+header h1 {
+    margin-bottom: 1%;
+}
+
 section {
     display: flex;
     flex-flow: row wrap;
@@ -30,13 +34,13 @@ article {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: auto;
     padding: auto;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: auto;
     padding: auto;
 }

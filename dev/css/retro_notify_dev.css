@@ -15,7 +15,7 @@ font-family: 'Press Start 2P', cursive;
     --sml-font: 1.5rem;
     --tny-font: 1.2rem;
     --def-font: 1rem;
-    --def-font-fam: 'Press Start 2P', cursive; 
+    --def-font-fam: 'Press Start 2P', cursive;
     --def-width-full: 100%;
     --def-width-half: 50%;
     --def-width-quarter: 30%;
@@ -25,25 +25,32 @@ font-family: 'Press Start 2P', cursive;
 /* media queries */
 @media (max-width: 576px) {
 
-    .retro_notify_container, 
-    .retro_notify_container_theme1, 
+    .retro_notify_container,
+    .retro_notify_container_theme1,
     .retro_notify_container_theme2,
     .retro_notify_container_theme3,
     .retro_notify_container_theme4,
     .retro_notify_container_theme5 {
-    --def-width-half: 100% !important;
-    --def-width-quarter: 100% !important;
+        --def-width-half: 100% !important;
+        --def-width-quarter: 100% !important;
+        --big-font: 1.4rem !important;
+        --med-font: 1.2rem !important;
+        --sml-font: 1rem !important;
+    }
+
+    .retro_notify_container h1,
+    .retro_notify_container h2,
+    .retro_notify_container h3,
+    .retro_notify_container p {
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 }
 
 
-@media (min-width: 768px) { ... }
-
-
-@media (min-width: 992px) { ... }
-
-
-@media (min-width: 1200px) { ... }
+/* @media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {} */
 
 html {
     font-size: 100%;
@@ -54,7 +61,8 @@ html {
 }
 
 .retro_notify_container {
-    background: #eeeeee; /* default background if no theme class is added */
+    background: #eeeeee;
+    /* default background if no theme class is added */
     font-family: var(--def-font-fam);
     font-size: var(--def-font);
     margin: auto;
@@ -62,6 +70,9 @@ html {
     margin-bottom: 2%;
     display: flex;
     flex-flow: row wrap;
+    align-self: flex-start;
+    justify-content: flex-start;
+    box-shadow: 5px 5px #888888;
 }
 
 /* component themes x5 classes */
@@ -87,9 +98,9 @@ html {
 }
 
 .retro_notify_container_theme5 {
-    background: #ed3833;
+    background: #3EF400;
     color: #ffffff;
-}
+} 
 
 /* components width classes */
 
@@ -117,14 +128,12 @@ html {
 .retro_notify_container h2 {
     font-family: var(--def-font-fam);
     font-size: var(--med-font);
-    width: var(--def-width-full);
     padding: var(--def-element-padding);
 }
 
 .retro_notify_container h3 {
     font-family: var(--def-font-fam);
     font-size: var(--sml-font);
-    width: var(--def-width-full);
     padding: var(--def-element-padding);
 }
 
@@ -132,10 +141,8 @@ html {
 .retro_notify_container p {
     font-family: var(--def-font-fam);
     font-size: var(--def-font);
-    width: var(--def-width-full);
     padding: var(--def-element-padding);
     line-height: normal;
-    word-spacing: 2px;
 }
 
 .retro_notify_container a {
@@ -156,7 +163,6 @@ html {
 
 .retro_notify_container a:hover {
     transform: scale(1.1);
-    background: white;
+    background: inherit;
+    color: inherit;
 }
-
-
