@@ -8,7 +8,7 @@ I used semantic html element where possible to make this more compatible.
 ![Alt Text](https://media.giphy.com/media/26u3Z5ChEO3lFSb3q/giphy.gif)
 
 # See examples
-[View examples page]()
+[View examples page](https://infallible-johnson-142778.netlify.app/)
 
 ## Dependencies
 * html5 + CSS3
