@@ -5,6 +5,8 @@ This light CSS libary can be injected into small or epic style libaries as you w
 
 I used semantic html element where possible to make this more compatible.
 
+![Alt Text](https://media.giphy.com/media/26u3Z5ChEO3lFSb3q/giphy.gif)
+
 ## Dependencies
 * html5 + CSS3
 * google fonts library https://fonts.google.com/specimen/Press+Start+2P (imported automatically in style sheet)
@@ -35,5 +37,7 @@ The default width for any continer with .retro_notify_container class is 100%, s
 .retro_notify_container_width_half
 .retro_notify_container_width_quarter
 ```
+
+# See examples
 
 
