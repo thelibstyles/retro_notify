@@ -33,10 +33,29 @@ article {
     margin: auto;
 }
 
+textarea {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 120px;
+    resize: none;
+}
+
 h1 {
     font-size: 4rem;
     margin: auto;
     padding: auto;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    textarea {
+        margin-top: 1%;
+        height: 200px;
+    }
 }
 
 h2 {

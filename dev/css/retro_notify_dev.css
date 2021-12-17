@@ -123,6 +123,8 @@ html {
     font-size: var(--big-font);
     width: var(--def-width-full);
     padding: var(--def-element-padding);
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 .retro_notify_container h2 {
@@ -143,6 +145,7 @@ html {
     font-size: var(--def-font);
     padding: var(--def-element-padding);
     line-height: normal;
+    width: 95%;
 }
 
 .retro_notify_container a {
