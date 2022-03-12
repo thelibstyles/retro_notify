@@ -5,8 +5,6 @@ This light CSS libary can be injected into small or epic style libaries as you w
 
 I used semantic html element where possible to make this more compatible.
 
-![Alt Text](https://media.giphy.com/media/26u3Z5ChEO3lFSb3q/giphy.gif)
-
 # See examples
 [View examples page](https://infallible-johnson-142778.netlify.app/)
 
@@ -15,12 +13,15 @@ I used semantic html element where possible to make this more compatible.
 * google fonts library https://fonts.google.com/specimen/Press+Start+2P (imported automatically in style sheet)
 
 # Core component
+
 ```
+
 <div class="retro_notify_container">
     <h1>Press play on tape</h1>
     <p>Please press play on tape so that the super fun game can begin</p>
     <a href="#">Press me</a>
 </div>
+
 ```
 
 # Downloaded css files:
